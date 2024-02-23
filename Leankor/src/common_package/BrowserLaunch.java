@@ -31,15 +31,11 @@ public class BrowserLaunch {
 
     public static WebDriver driver;
 	public static Actions actions;
-	
 	private static String userCredentials, userPassword;
 	public static String filePath = System.getProperty("user.dir");//System.getProperty("user.dir") is a Java system property that retrieves the current working directory of the application or process that is running the Java code. In the context of the code you provided, it's being used to construct file paths relative to the current working directory.
 	public static Robot robot ;
 	public static WebDriverWait wait;
     public static  Properties properties;
-	
-	
-
 	
 	public  BrowserLaunch()
 	{

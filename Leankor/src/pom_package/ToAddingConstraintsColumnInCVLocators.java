@@ -283,7 +283,7 @@ public static final By splitterBarOnCalendarView()
 
 public static final By dividerBar()
 {
-	return By.xpath("//div[contains(@id,'customGanttPanel-')]//div[contains(@class,'x-splitter sch-timelinepanel-splitter x-border-item x-box-item x-splitter-default x-splitter')]");
+	return By.xpath("//div[contains(@class,'customGanttPanelCls ')]//div[contains(@class,'x-splitter sch-timelinepanel-splitter x-border-item x-box-item x-splitter-default x-splitter')]");
 }
 
 

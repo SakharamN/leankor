@@ -1,21 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-21T15:04:17 IST" name="Default suite" finished-at="2024-02-21T15:06:18 IST" duration-ms="121172">
+  <suite started-at="2024-02-23T19:06:32 IST" name="Default suite" finished-at="2024-02-23T19:07:48 IST" duration-ms="75629">
     <groups>
     </groups>
-    <test started-at="2024-02-21T15:04:17 IST" name="Default test" finished-at="2024-02-21T15:06:18 IST" duration-ms="121172">
-      <class name="test_package.TestCreatingSingleActivityAndAutomateEditInformationfieldOnPg">
-        <test-method signature="Create_SingleActivity()[pri:0, instance:test_package.TestCreatingSingleActivityAndAutomateEditInformationfieldOnPg@5b4d25e7]" started-at="2024-02-21T15:04:17 IST" name="Create_SingleActivity" finished-at="2024-02-21T15:05:18 IST" duration-ms="60848" status="PASS">
+    <test started-at="2024-02-23T19:06:32 IST" name="Default test" finished-at="2024-02-23T19:07:48 IST" duration-ms="75629">
+      <class name="test_package.TestAddNewColumnOnPG">
+        <test-method signature="Create_SingleActivity()[pri:0, instance:test_package.TestAddNewColumnOnPG@ea9e141]" started-at="2024-02-23T19:06:32 IST" name="Create_SingleActivity" finished-at="2024-02-23T19:07:31 IST" duration-ms="58305" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Create_SingleActivity -->
-        <test-method signature="addingStickers_OnActivity()[pri:13, instance:test_package.TestCreatingSingleActivityAndAutomateEditInformationfieldOnPg@5b4d25e7]" started-at="2024-02-21T15:05:18 IST" name="addingStickers_OnActivity" finished-at="2024-02-21T15:06:18 IST" duration-ms="60232" status="PASS">
+        <test-method signature="addPercentageDoneColumn()[pri:1, instance:test_package.TestAddNewColumnOnPG@ea9e141]" started-at="2024-02-23T19:07:31 IST" name="addPercentageDoneColumn" finished-at="2024-02-23T19:07:38 IST" duration-ms="7367" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addingStickers_OnActivity -->
-      </class> <!-- test_package.TestCreatingSingleActivityAndAutomateEditInformationfieldOnPg -->
+        </test-method> <!-- addPercentageDoneColumn -->
+        <test-method signature="addAssignedResourceColumn()[pri:2, instance:test_package.TestAddNewColumnOnPG@ea9e141]" started-at="2024-02-23T19:07:38 IST" name="addAssignedResourceColumn" finished-at="2024-02-23T19:07:41 IST" duration-ms="3066" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAssignedResourceColumn -->
+        <test-method signature="removePercentageDoneColumn()[pri:16, instance:test_package.TestAddNewColumnOnPG@ea9e141]" started-at="2024-02-23T19:07:41 IST" name="removePercentageDoneColumn" finished-at="2024-02-23T19:07:48 IST" duration-ms="6818" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removePercentageDoneColumn -->
+      </class> <!-- test_package.TestAddNewColumnOnPG -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
