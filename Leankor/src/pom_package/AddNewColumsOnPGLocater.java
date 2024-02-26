@@ -48,6 +48,175 @@ public class AddNewColumsOnPGLocater {
 		return By.xpath("//div[contains(@id,'headercontainer-')]//span[text()='% Done']/parent::div/parent::div/parent::div/following-sibling::div");
 	}
 	
+	public static final By removeAssignedResourceColumn()
+	{
+		return By.xpath("//div[contains(@id,'headercontainer-')]//span[text()='Assigned Resources']");
+	}
+	
+	public static final By triggerofAssignedResourceColumn()
+	{
+		return By.xpath("//div[contains(@id,'headercontainer-')]//span[text()='Assigned Resources']/parent::div/parent::div/parent::div/following-sibling::div");
+	}
+	
+	public static final By removeCategoryColumn()
+	{
+		return By.xpath("//div[contains(@id,'headercontainer-')]//span[text()='Category']");
+	}
+	
+	public static final By triggerofCategoryColumn()
+	{
+		return By.xpath("//div[contains(@id,'headercontainer-')]//span[text()='Category']/parent::div/parent::div/parent::div/following-sibling::div");
+	}
+	
+	
+	public static final By removeDescriptionColumn()
+	{
+		return By.xpath("//div[contains(@id,'headercontainer-')]//span[text()='Description']");
+	}
+	
+	public static final By triggerofDescriptionColumn()
+	{
+		return By.xpath("//div[contains(@id,'headercontainer-')]//span[text()='Description']/parent::div/parent::div/parent::div/following-sibling::div");
+	}
+	
+	
+	public static final By removeDiscussColumn()
+	{
+		return By.xpath("//div[contains(@id,'headercontainer-')]//span[text()='Discuss']");
+	}
+	
+	public static final By triggerofDiscussColumn()
+	{
+		return By.xpath("//div[contains(@id,'headercontainer-')]//span[text()='Discuss']/parent::div/parent::div/parent::div/following-sibling::div");
+	}
+	
+	public static final By removeElapsedTimeColumn()
+	{
+		return By.xpath("//div[contains(@id,'headercontainer-')]//span[text()='Elapsed Time']");
+	}
+	
+	public static final By triggerofElapsedTimeColumn()
+	{
+		return By.xpath("//div[contains(@id,'headercontainer-')]//span[text()='Elapsed Time']/parent::div/parent::div/parent::div/following-sibling::div");
+	}
+	
+	public static final By removeFilesColumn()
+	{
+		return By.xpath("//div[contains(@id,'headercontainer-')]//span[text()='Files']");
+	}
+	
+	public static final By triggerofFilesColumn()
+	{
+		return By.xpath("//div[contains(@id,'headercontainer-')]//span[text()='Files']/parent::div/parent::div/parent::div/following-sibling::div");
+	}
+	
+	
+	public static final By removeOnHoldColumn()
+	{
+		return By.xpath("//div[contains(@id,'headercontainer-')]//span[text()='On Hold']");
+	}
+	
+	public static final By triggerofOnHoldColumn()
+	{
+		return By.xpath("//div[contains(@id,'headercontainer-')]//span[text()='On Hold']/parent::div/parent::div/parent::div/following-sibling::div");
+	}
+	
+	public static final By removePredecessorColumn()
+	{
+		return By.xpath("//div[contains(@id,'headercontainer-')]//span[text()='Predecessors']");
+	}
+	
+	public static final By triggerofPredecessorColumn()
+	{
+		return By.xpath("//div[contains(@id,'headercontainer-')]//span[text()='Predecessors']/parent::div/parent::div/parent::div/following-sibling::div");
+	}
+	
+	public static final By removePriorityColumn()
+	{
+		return By.xpath("//div[contains(@id,'headercontainer-')]//span[text()='Priority']");
+	}
+	
+	public static final By triggerofPriorityColumn()
+	{
+		return By.xpath("//div[contains(@id,'headercontainer-')]//span[text()='Priority']/parent::div/parent::div/parent::div/following-sibling::div");
+	}
+
+	
+	public static final By removeRiskColumn()
+	{
+		return By.xpath("//div[contains(@id,'headercontainer-')]//span[text()='Risk']");
+	}
+	
+	public static final By triggerofRiskColumn()
+	{
+		return By.xpath("//div[contains(@id,'headercontainer-')]//span[text()='Risk']/parent::div/parent::div/parent::div/following-sibling::div");
+	}
+	
+	public static final By removeSequenceColumn()
+	{
+		return By.xpath("//div[contains(@id,'headercontainer-')]//span[text()='Sequence']");
+	}
+	
+	public static final By triggerofSequenceColumn()
+	{
+		return By.xpath("//div[contains(@id,'headercontainer-')]//span[text()='Sequence']/parent::div/parent::div/parent::div/following-sibling::div");
+	}
+	
+	
+	public static final By removeStickersColumn()
+	{
+		return By.xpath("//div[contains(@id,'headercontainer-')]//span[text()='Stickers']");
+	}
+	
+	public static final By triggerofStickersColumn()
+	{
+		return By.xpath("//div[contains(@id,'headercontainer-')]//span[text()='Stickers']/parent::div/parent::div/parent::div/following-sibling::div");
+	}
+	
+	public static final By removeSuccessorsColumn()
+	{
+		return By.xpath("//div[contains(@id,'headercontainer-')]//span[text()='Successors']");
+	}
+	
+	public static final By triggerofSuccessorColumn()
+	{
+		return By.xpath("//div[contains(@id,'headercontainer-')]//span[text()='Successors']/parent::div/parent::div/parent::div/following-sibling::div");
+	}
+	
+	
+	public static final By removeTimeToLaunch()
+	{
+		return By.xpath("//div[contains(@id,'headercontainer-')]//span[text()='Time To Launch']");
+	}
+	
+	public static final By triggerofTimeToLaunchColumn()
+	{
+		return By.xpath("//div[contains(@id,'headercontainer-')]//span[text()='Time To Launch']/parent::div/parent::div/parent::div/following-sibling::div");
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	

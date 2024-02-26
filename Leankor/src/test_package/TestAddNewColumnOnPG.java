@@ -26,7 +26,7 @@ public class TestAddNewColumnOnPG {
 	{
 		addNewColumn.addAssignedResourceColumn();
 	}
-	/*
+	
 	@Test(priority=3)
 	public void addCategoryColumn()
 	{
@@ -105,13 +105,118 @@ public class TestAddNewColumnOnPG {
 	{
 		addNewColumn.addTimetoLaunchColumn();
 	}
-	*/
+	
 	
 	@Test(priority=16)
 	public void removePercentageDoneColumn()
 	{
 		addNewColumn.removePercentageDoneColumn();
 	}
+	
+	@Test(priority=17)
+	public void removeAssignedResourceColumn()
+	{
+		addNewColumn.removeAssignedResourceColumn();
+	}
+	
+	
+	@Test(priority=18)
+	public void removeCategoryColumn()
+	{
+		addNewColumn.removeCategoryColumn();
+	}
+	
+	@Test(priority=19)
+	public void removeDescriptionColumn()
+	{
+		addNewColumn.removeDescriptionColumn();
+	}
+	
+	@Test(priority=20)
+	public void removeDiscussColumn()
+	{
+		addNewColumn.removeDiscussColumn();
+	}
+	
+	@Test(priority=21)
+	public void removeElapsedTimeColumn()
+	{
+		addNewColumn.removeElapsedTimeColumn();
+	}
+	
+	
+	@Test(priority=22)
+	public void removeFilesColumn()
+	{
+		addNewColumn.removeFilesColumn();
+	}
+	
+	@Test(priority=23)
+	public void removeOnHoldColumn()
+	{
+		addNewColumn.removeOnHoldColumn();
+	}
+	
+	@Test(priority=24)
+	public void removePredecessorColumn()
+	{
+		addNewColumn.removePredecessorColumn();
+	}
+	
+	@Test(priority=25)
+	public void removePriorityColumn()
+	{
+		addNewColumn.removePriorityColumn();
+	}
+	
+	
+	@Test(priority=26)
+	public void removeRiskColumn()
+	{
+		addNewColumn.removeRiskColumn();
+	}
+	
+	
+	@Test(priority=27)
+	public void removeSequenceColumn()
+	{
+		addNewColumn.removeSequenceColumn();
+	}
+	
+	@Test(priority=28)
+	public void removeStickersColumn()
+	{
+		addNewColumn.removeStickersColumn();
+	}
+	
+	
+	@Test(priority=29)
+	public void removeSuccessorsColumn()
+	{
+		addNewColumn.removeSuccessorsColumn();
+	}
+	
+	@Test(priority=30)
+	public void removeTimeToLaunch()
+	{
+		addNewColumn.removeTimeToLaunch();
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 

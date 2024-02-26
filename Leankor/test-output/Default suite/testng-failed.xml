@@ -5,7 +5,7 @@
     <classes>
       <class name="test_package.TestAddNewColumnOnPG">
         <methods>
-          <include name="addPercentageDoneColumn"/>
+          <include name="removePercentageDoneColumn"/>
         </methods>
       </class> <!-- test_package.TestAddNewColumnOnPG -->
     </classes>

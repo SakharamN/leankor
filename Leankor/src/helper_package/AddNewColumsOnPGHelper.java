@@ -629,19 +629,326 @@ public class AddNewColumsOnPGHelper extends CommonMethodsOfWebDriver {
 			
             actions.moveToElement(findElement(AddNewColumsOnPGLocater.removePercentageDoneColumn())).build().perform();
 			
-			try {Thread.sleep(2000);}catch(InterruptedException ie) {}
+            try {Thread.sleep(1000);}catch(InterruptedException ie) {}
 			
 			explicitWaitElementToBeClickable(findElement(AddNewColumsOnPGLocater.triggerofPercentageDoneColumn()));
 			findElement(AddNewColumsOnPGLocater.triggerofPercentageDoneColumn()).click();
 			
 			try {Thread.sleep(1000);}catch(InterruptedException ie) {}
 		
-		explicitWaitElementToBeClickable(findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()));
-		findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()).click();
-		try {Thread.sleep(2000);}catch(InterruptedException ie) {}
-		  
+		   explicitWaitElementToBeClickable(findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()));
+		   findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()).click();
+				  
 	  }
 	  
+	  
+	  public void removeAssignedResourceColumn()
+	  {
+
+		    try {Thread.sleep(1000);}catch(InterruptedException ie) {}
+		    
+		    explicitWaitElementBy("elementToBeLocated", AddNewColumsOnPGLocater.removeAssignedResourceColumn());
+			
+          actions.moveToElement(findElement(AddNewColumsOnPGLocater.removeAssignedResourceColumn())).build().perform();
+			
+          try {Thread.sleep(1000);}catch(InterruptedException ie) {}
+			
+			explicitWaitElementToBeClickable(findElement(AddNewColumsOnPGLocater.triggerofAssignedResourceColumn()));
+			findElement(AddNewColumsOnPGLocater.triggerofAssignedResourceColumn()).click();
+			
+			try {Thread.sleep(1000);}catch(InterruptedException ie) {}
+		
+		explicitWaitElementToBeClickable(findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()));
+		findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()).click();
+		
+	  }
+	  
+	  
+	  public void removeCategoryColumn()
+	  {
+
+		    try {Thread.sleep(1000);}catch(InterruptedException ie) {}
+		    
+		    explicitWaitElementBy("elementToBeLocated", AddNewColumsOnPGLocater.removeCategoryColumn());
+			
+          actions.moveToElement(findElement(AddNewColumsOnPGLocater.removeCategoryColumn())).build().perform();
+			
+          try {Thread.sleep(1000);}catch(InterruptedException ie) {}
+			
+			explicitWaitElementToBeClickable(findElement(AddNewColumsOnPGLocater.triggerofCategoryColumn()));
+			findElement(AddNewColumsOnPGLocater.triggerofCategoryColumn()).click();
+			
+			try {Thread.sleep(1000);}catch(InterruptedException ie) {}
+		
+		explicitWaitElementToBeClickable(findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()));
+		findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()).click();
+		
+	  }
+	  
+	  public void removeDescriptionColumn()
+	  {
+
+		    try {Thread.sleep(1000);}catch(InterruptedException ie) {}
+		    
+		    explicitWaitElementBy("elementToBeLocated", AddNewColumsOnPGLocater.removeDescriptionColumn());
+			
+          actions.moveToElement(findElement(AddNewColumsOnPGLocater.removeDescriptionColumn())).build().perform();
+			
+          try {Thread.sleep(1000);}catch(InterruptedException ie) {}
+			
+			explicitWaitElementToBeClickable(findElement(AddNewColumsOnPGLocater.triggerofDescriptionColumn()));
+			findElement(AddNewColumsOnPGLocater.triggerofDescriptionColumn()).click();
+			
+			try {Thread.sleep(1000);}catch(InterruptedException ie) {}
+		
+		explicitWaitElementToBeClickable(findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()));
+		findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()).click();
+		
+	  }
+	  
+	  
+	  
+	  public void removeDiscussColumn()
+	  {
+
+		    try {Thread.sleep(1000);}catch(InterruptedException ie) {}
+		    
+		    explicitWaitElementBy("elementToBeLocated", AddNewColumsOnPGLocater.removeDiscussColumn());
+			
+          actions.moveToElement(findElement(AddNewColumsOnPGLocater.removeDiscussColumn())).build().perform();
+			
+          try {Thread.sleep(1000);}catch(InterruptedException ie) {}
+			
+			explicitWaitElementToBeClickable(findElement(AddNewColumsOnPGLocater.triggerofDiscussColumn()));
+			findElement(AddNewColumsOnPGLocater.triggerofDiscussColumn()).click();
+			
+			try {Thread.sleep(1000);}catch(InterruptedException ie) {}
+		
+		explicitWaitElementToBeClickable(findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()));
+		findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()).click();
+		
+	  }
+	  
+	  
+	  
+	  public void removeElapsedTimeColumn()
+	  {
+
+		    try {Thread.sleep(1000);}catch(InterruptedException ie) {}
+		    
+		    explicitWaitElementBy("elementToBeLocated", AddNewColumsOnPGLocater.removeElapsedTimeColumn());
+			
+          actions.moveToElement(findElement(AddNewColumsOnPGLocater.removeElapsedTimeColumn())).build().perform();
+			
+          try {Thread.sleep(1000);}catch(InterruptedException ie) {}
+			
+			explicitWaitElementToBeClickable(findElement(AddNewColumsOnPGLocater.triggerofElapsedTimeColumn()));
+			findElement(AddNewColumsOnPGLocater.triggerofElapsedTimeColumn()).click();
+			
+			try {Thread.sleep(1000);}catch(InterruptedException ie) {}
+		
+		explicitWaitElementToBeClickable(findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()));
+		findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()).click();
+		
+	  }
+	  
+	  
+	  
+	  public void removeFilesColumn()
+	  {
+
+		    try {Thread.sleep(1000);}catch(InterruptedException ie) {}
+		    
+		    explicitWaitElementBy("elementToBeLocated", AddNewColumsOnPGLocater.removeFilesColumn());
+			
+          actions.moveToElement(findElement(AddNewColumsOnPGLocater.removeFilesColumn())).build().perform();
+			
+          try {Thread.sleep(1000);}catch(InterruptedException ie) {}
+			
+			explicitWaitElementToBeClickable(findElement(AddNewColumsOnPGLocater.triggerofFilesColumn()));
+			findElement(AddNewColumsOnPGLocater.triggerofFilesColumn()).click();
+			
+			try {Thread.sleep(1000);}catch(InterruptedException ie) {}
+		
+		explicitWaitElementToBeClickable(findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()));
+		findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()).click();
+		
+	  }
+	  
+	  
+	  
+	  
+	  public void removeOnHoldColumn()
+	  {
+
+		    try {Thread.sleep(1000);}catch(InterruptedException ie) {}
+		    
+		    explicitWaitElementBy("elementToBeLocated", AddNewColumsOnPGLocater.removeOnHoldColumn());
+			
+          actions.moveToElement(findElement(AddNewColumsOnPGLocater.removeOnHoldColumn())).build().perform();
+			
+          try {Thread.sleep(1000);}catch(InterruptedException ie) {}
+			
+			explicitWaitElementToBeClickable(findElement(AddNewColumsOnPGLocater.triggerofOnHoldColumn()));
+			findElement(AddNewColumsOnPGLocater.triggerofOnHoldColumn()).click();
+			
+			try {Thread.sleep(1000);}catch(InterruptedException ie) {}
+		
+		explicitWaitElementToBeClickable(findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()));
+		findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()).click();
+		
+	  }
+	  
+	  
+	  
+	  public void removePredecessorColumn()
+	  {
+
+		    try {Thread.sleep(1000);}catch(InterruptedException ie) {}
+		    
+		    explicitWaitElementBy("elementToBeLocated", AddNewColumsOnPGLocater.removePredecessorColumn());
+			
+          actions.moveToElement(findElement(AddNewColumsOnPGLocater.removePredecessorColumn())).build().perform();
+			
+          try {Thread.sleep(1000);}catch(InterruptedException ie) {}
+			
+			explicitWaitElementToBeClickable(findElement(AddNewColumsOnPGLocater.triggerofPredecessorColumn()));
+			findElement(AddNewColumsOnPGLocater.triggerofPredecessorColumn()).click();
+			
+			try {Thread.sleep(1000);}catch(InterruptedException ie) {}
+		
+		explicitWaitElementToBeClickable(findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()));
+		findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()).click();
+		
+	  }
+	  
+	  
+	  public void removePriorityColumn()
+	  {
+
+		    try {Thread.sleep(1000);}catch(InterruptedException ie) {}
+		    
+		    explicitWaitElementBy("elementToBeLocated", AddNewColumsOnPGLocater.removePriorityColumn());
+			
+          actions.moveToElement(findElement(AddNewColumsOnPGLocater.removePriorityColumn())).build().perform();
+			
+          try {Thread.sleep(1000);}catch(InterruptedException ie) {}
+			
+			explicitWaitElementToBeClickable(findElement(AddNewColumsOnPGLocater.triggerofPriorityColumn()));
+			findElement(AddNewColumsOnPGLocater.triggerofPriorityColumn()).click();
+			
+			try {Thread.sleep(1000);}catch(InterruptedException ie) {}
+		
+		explicitWaitElementToBeClickable(findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()));
+		findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()).click();
+		
+	  }
+	  
+	  
+	  public void removeRiskColumn()
+	  {
+
+		    try {Thread.sleep(1000);}catch(InterruptedException ie) {}
+		    
+		    explicitWaitElementBy("elementToBeLocated", AddNewColumsOnPGLocater.removeRiskColumn());
+			
+          actions.moveToElement(findElement(AddNewColumsOnPGLocater.removeRiskColumn())).build().perform();
+			
+          try {Thread.sleep(1000);}catch(InterruptedException ie) {}
+			
+			explicitWaitElementToBeClickable(findElement(AddNewColumsOnPGLocater.triggerofRiskColumn()));
+			findElement(AddNewColumsOnPGLocater.triggerofRiskColumn()).click();
+			
+			try {Thread.sleep(1000);}catch(InterruptedException ie) {}
+		
+		explicitWaitElementToBeClickable(findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()));
+		findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()).click();
+		
+	  }
+	  
+	  public void removeSequenceColumn()
+	  {
+
+		    try {Thread.sleep(1000);}catch(InterruptedException ie) {}
+		    
+		    explicitWaitElementBy("elementToBeLocated", AddNewColumsOnPGLocater.removeSequenceColumn());
+			
+          actions.moveToElement(findElement(AddNewColumsOnPGLocater.removeSequenceColumn())).build().perform();
+			
+          try {Thread.sleep(1000);}catch(InterruptedException ie) {}
+			
+			explicitWaitElementToBeClickable(findElement(AddNewColumsOnPGLocater.triggerofSequenceColumn()));
+			findElement(AddNewColumsOnPGLocater.triggerofSequenceColumn()).click();
+			
+			try {Thread.sleep(1000);}catch(InterruptedException ie) {}
+		
+		explicitWaitElementToBeClickable(findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()));
+		findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()).click();
+	
+	  }
+	  
+	  public void removeStickersColumn()
+	  {
+
+		    try {Thread.sleep(1000);}catch(InterruptedException ie) {}
+		    
+		    explicitWaitElementBy("elementToBeLocated", AddNewColumsOnPGLocater.removeStickersColumn());
+			
+          actions.moveToElement(findElement(AddNewColumsOnPGLocater.removeStickersColumn())).build().perform();
+			
+          try {Thread.sleep(1000);}catch(InterruptedException ie) {}
+			
+			explicitWaitElementToBeClickable(findElement(AddNewColumsOnPGLocater.triggerofStickersColumn()));
+			findElement(AddNewColumsOnPGLocater.triggerofStickersColumn()).click();
+			
+			try {Thread.sleep(1000);}catch(InterruptedException ie) {}
+		
+		explicitWaitElementToBeClickable(findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()));
+		findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()).click();
+		
+	  }
+	  
+	  public void removeSuccessorsColumn()
+	  {
+
+		    try {Thread.sleep(1000);}catch(InterruptedException ie) {}
+		    
+		    explicitWaitElementBy("elementToBeLocated", AddNewColumsOnPGLocater.removeSuccessorsColumn());
+			
+          actions.moveToElement(findElement(AddNewColumsOnPGLocater.removeSuccessorsColumn())).build().perform();
+			
+          try {Thread.sleep(1000);}catch(InterruptedException ie) {}
+			
+			explicitWaitElementToBeClickable(findElement(AddNewColumsOnPGLocater.triggerofSuccessorColumn()));
+			findElement(AddNewColumsOnPGLocater.triggerofSuccessorColumn()).click();
+			
+			try {Thread.sleep(1000);}catch(InterruptedException ie) {}
+		
+		explicitWaitElementToBeClickable(findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()));
+		findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()).click();
+		
+	  }
+	  
+	  public void removeTimeToLaunch()
+	  {
+
+		    try {Thread.sleep(1000);}catch(InterruptedException ie) {}
+		    
+		    explicitWaitElementBy("elementToBeLocated", AddNewColumsOnPGLocater.removeTimeToLaunch());
+			
+            actions.moveToElement(findElement(AddNewColumsOnPGLocater.removeTimeToLaunch())).build().perform();
+			
+            try {Thread.sleep(1000);}catch(InterruptedException ie) {}
+			
+			explicitWaitElementToBeClickable(findElement(AddNewColumsOnPGLocater.triggerofTimeToLaunchColumn()));
+			findElement(AddNewColumsOnPGLocater.triggerofTimeToLaunchColumn()).click();
+			
+			try {Thread.sleep(1000);}catch(InterruptedException ie) {}
+		
+		explicitWaitElementToBeClickable(findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()));
+		findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()).click();
+		
+	  }
 	  
 	  
 	  
