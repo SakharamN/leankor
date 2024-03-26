@@ -470,10 +470,10 @@ public class AddKanbanCardRegressionOnCalendarViewHelper extends CommonMethodsOf
 	
 	
 	//Automating the chatter on card in CV
+	
 	public void ClickingOnDiscuss()
 	{
-		
-		
+			
 		try {Thread.sleep(4000);}catch(InterruptedException ie) {}
 		
 		explicitWaitVisibilityOf(findElement(AddKanbanCardRegressionOnCalendarViewLocater.RightClickOnCard()));
@@ -639,15 +639,6 @@ public class AddKanbanCardRegressionOnCalendarViewHelper extends CommonMethodsOf
 		   findElement(AddKanbanCardRegressionOnCalendarViewLocater.clickOnCloneButton()).click(); 
 		
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 	
 	

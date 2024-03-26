@@ -42,9 +42,11 @@ public class CreatingSingleActivityAndAutomateEditInformationfieldOnPgLocator {
 	
 	public static final  By clickOnPlusIcon()
 	{
-		//return By.xpath("//div[contains(@id,'ganttcolumn-name-')]//span[@name='addButton']");// spring 24
 		
-		return By.xpath("//div[contains(@id,'namecolumn-')]//span[@name='addButton']");//Qa5 org
+		
+		//return By.xpath("//div[contains(@id,'namecolumn-')]//span[@name='addButton']");//Qa5 org,QA4
+		
+		return By.xpath("//div[contains(@id,'ganttcolumn-name-')]//span[@name='addButton']");// org  20
 	}
 	
 	public static final By loadMask()

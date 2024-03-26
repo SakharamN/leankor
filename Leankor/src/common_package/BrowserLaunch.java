@@ -62,10 +62,10 @@ public class BrowserLaunch {
 			ioException.printStackTrace();
 		}
 		
-		userCredentials = properties.getProperty("QA4");
+		userCredentials = properties.getProperty("QA20");
 		System.out.println("QA4 username :"+userCredentials);
 		
-		userPassword = properties.getProperty("QA4Password");//property file key value format
+		userPassword = properties.getProperty("QA20Password");//property file key value format
 		System.out.println("QA4Password :"+userPassword);
 		
 		
@@ -165,3 +165,5 @@ public class BrowserLaunch {
 	}
 	
 }
+
+

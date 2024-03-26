@@ -1210,6 +1210,7 @@ public class KanbanBoardRegressionHelper extends CommonMethodsOfWebDriver {
 		{
 			System.out.println("Quick Action button is active and perform change date operation.");
 			try {Thread.sleep(1000);}catch(InterruptedException ie) {}
+			
 			/*explicitWaitElementBy("elementToBeLocated", KanbanBoardRegressionLocators.clickOnCardModeSideColumn());
 			findElement(KanbanBoardRegressionLocators.clickOnCardModeSideColumn()).click();
 			

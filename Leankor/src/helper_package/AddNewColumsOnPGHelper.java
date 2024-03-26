@@ -614,7 +614,6 @@ public class AddNewColumsOnPGHelper extends CommonMethodsOfWebDriver {
 				
 			   }
 				
-				
 	  }
 	  
 	  
@@ -636,8 +635,8 @@ public class AddNewColumsOnPGHelper extends CommonMethodsOfWebDriver {
 			
 			try {Thread.sleep(1000);}catch(InterruptedException ie) {}
 		
-		   explicitWaitElementToBeClickable(findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()));
-		   findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()).click();
+		    explicitWaitElementToBeClickable(findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()));
+		    findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()).click();
 				  
 	  }
 	  
@@ -649,17 +648,17 @@ public class AddNewColumsOnPGHelper extends CommonMethodsOfWebDriver {
 		    
 		    explicitWaitElementBy("elementToBeLocated", AddNewColumsOnPGLocater.removeAssignedResourceColumn());
 			
-          actions.moveToElement(findElement(AddNewColumsOnPGLocater.removeAssignedResourceColumn())).build().perform();
+            actions.moveToElement(findElement(AddNewColumsOnPGLocater.removeAssignedResourceColumn())).build().perform();
 			
-          try {Thread.sleep(1000);}catch(InterruptedException ie) {}
+            try {Thread.sleep(1000);}catch(InterruptedException ie) {}
 			
 			explicitWaitElementToBeClickable(findElement(AddNewColumsOnPGLocater.triggerofAssignedResourceColumn()));
 			findElement(AddNewColumsOnPGLocater.triggerofAssignedResourceColumn()).click();
 			
 			try {Thread.sleep(1000);}catch(InterruptedException ie) {}
 		
-		explicitWaitElementToBeClickable(findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()));
-		findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()).click();
+		    explicitWaitElementToBeClickable(findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()));
+		    findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()).click();
 		
 	  }
 	  
@@ -671,17 +670,17 @@ public class AddNewColumsOnPGHelper extends CommonMethodsOfWebDriver {
 		    
 		    explicitWaitElementBy("elementToBeLocated", AddNewColumsOnPGLocater.removeCategoryColumn());
 			
-          actions.moveToElement(findElement(AddNewColumsOnPGLocater.removeCategoryColumn())).build().perform();
+            actions.moveToElement(findElement(AddNewColumsOnPGLocater.removeCategoryColumn())).build().perform();
 			
-          try {Thread.sleep(1000);}catch(InterruptedException ie) {}
+           try {Thread.sleep(1000);}catch(InterruptedException ie) {}
 			
 			explicitWaitElementToBeClickable(findElement(AddNewColumsOnPGLocater.triggerofCategoryColumn()));
 			findElement(AddNewColumsOnPGLocater.triggerofCategoryColumn()).click();
 			
 			try {Thread.sleep(1000);}catch(InterruptedException ie) {}
 		
-		explicitWaitElementToBeClickable(findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()));
-		findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()).click();
+		   explicitWaitElementToBeClickable(findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()));
+		   findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()).click();
 		
 	  }
 	  
@@ -692,17 +691,17 @@ public class AddNewColumsOnPGHelper extends CommonMethodsOfWebDriver {
 		    
 		    explicitWaitElementBy("elementToBeLocated", AddNewColumsOnPGLocater.removeDescriptionColumn());
 			
-          actions.moveToElement(findElement(AddNewColumsOnPGLocater.removeDescriptionColumn())).build().perform();
+            actions.moveToElement(findElement(AddNewColumsOnPGLocater.removeDescriptionColumn())).build().perform();
 			
-          try {Thread.sleep(1000);}catch(InterruptedException ie) {}
+           try {Thread.sleep(1000);}catch(InterruptedException ie) {}
 			
 			explicitWaitElementToBeClickable(findElement(AddNewColumsOnPGLocater.triggerofDescriptionColumn()));
 			findElement(AddNewColumsOnPGLocater.triggerofDescriptionColumn()).click();
 			
 			try {Thread.sleep(1000);}catch(InterruptedException ie) {}
 		
-		explicitWaitElementToBeClickable(findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()));
-		findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()).click();
+		   explicitWaitElementToBeClickable(findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()));
+		   findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()).click();
 		
 	  }
 	  
@@ -715,17 +714,17 @@ public class AddNewColumsOnPGHelper extends CommonMethodsOfWebDriver {
 		    
 		    explicitWaitElementBy("elementToBeLocated", AddNewColumsOnPGLocater.removeDiscussColumn());
 			
-          actions.moveToElement(findElement(AddNewColumsOnPGLocater.removeDiscussColumn())).build().perform();
+            actions.moveToElement(findElement(AddNewColumsOnPGLocater.removeDiscussColumn())).build().perform();
 			
-          try {Thread.sleep(1000);}catch(InterruptedException ie) {}
+           try {Thread.sleep(1000);}catch(InterruptedException ie) {}
 			
 			explicitWaitElementToBeClickable(findElement(AddNewColumsOnPGLocater.triggerofDiscussColumn()));
 			findElement(AddNewColumsOnPGLocater.triggerofDiscussColumn()).click();
 			
 			try {Thread.sleep(1000);}catch(InterruptedException ie) {}
 		
-		explicitWaitElementToBeClickable(findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()));
-		findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()).click();
+		    explicitWaitElementToBeClickable(findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()));
+		    findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()).click();
 		
 	  }
 	  
@@ -738,17 +737,17 @@ public class AddNewColumsOnPGHelper extends CommonMethodsOfWebDriver {
 		    
 		    explicitWaitElementBy("elementToBeLocated", AddNewColumsOnPGLocater.removeElapsedTimeColumn());
 			
-          actions.moveToElement(findElement(AddNewColumsOnPGLocater.removeElapsedTimeColumn())).build().perform();
+            actions.moveToElement(findElement(AddNewColumsOnPGLocater.removeElapsedTimeColumn())).build().perform();
 			
-          try {Thread.sleep(1000);}catch(InterruptedException ie) {}
+            try {Thread.sleep(1000);}catch(InterruptedException ie) {}
 			
 			explicitWaitElementToBeClickable(findElement(AddNewColumsOnPGLocater.triggerofElapsedTimeColumn()));
 			findElement(AddNewColumsOnPGLocater.triggerofElapsedTimeColumn()).click();
 			
 			try {Thread.sleep(1000);}catch(InterruptedException ie) {}
 		
-		explicitWaitElementToBeClickable(findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()));
-		findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()).click();
+		   explicitWaitElementToBeClickable(findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()));
+		   findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()).click();
 		
 	  }
 	  
@@ -761,17 +760,17 @@ public class AddNewColumsOnPGHelper extends CommonMethodsOfWebDriver {
 		    
 		    explicitWaitElementBy("elementToBeLocated", AddNewColumsOnPGLocater.removeFilesColumn());
 			
-          actions.moveToElement(findElement(AddNewColumsOnPGLocater.removeFilesColumn())).build().perform();
+            actions.moveToElement(findElement(AddNewColumsOnPGLocater.removeFilesColumn())).build().perform();
 			
-          try {Thread.sleep(1000);}catch(InterruptedException ie) {}
+            try {Thread.sleep(1000);}catch(InterruptedException ie) {}
 			
 			explicitWaitElementToBeClickable(findElement(AddNewColumsOnPGLocater.triggerofFilesColumn()));
 			findElement(AddNewColumsOnPGLocater.triggerofFilesColumn()).click();
 			
 			try {Thread.sleep(1000);}catch(InterruptedException ie) {}
 		
-		explicitWaitElementToBeClickable(findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()));
-		findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()).click();
+		   explicitWaitElementToBeClickable(findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()));
+		   findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()).click();
 		
 	  }
 	  
@@ -785,17 +784,17 @@ public class AddNewColumsOnPGHelper extends CommonMethodsOfWebDriver {
 		    
 		    explicitWaitElementBy("elementToBeLocated", AddNewColumsOnPGLocater.removeOnHoldColumn());
 			
-          actions.moveToElement(findElement(AddNewColumsOnPGLocater.removeOnHoldColumn())).build().perform();
+            actions.moveToElement(findElement(AddNewColumsOnPGLocater.removeOnHoldColumn())).build().perform();
 			
-          try {Thread.sleep(1000);}catch(InterruptedException ie) {}
+            try {Thread.sleep(1000);}catch(InterruptedException ie) {}
 			
 			explicitWaitElementToBeClickable(findElement(AddNewColumsOnPGLocater.triggerofOnHoldColumn()));
 			findElement(AddNewColumsOnPGLocater.triggerofOnHoldColumn()).click();
 			
 			try {Thread.sleep(1000);}catch(InterruptedException ie) {}
 		
-		explicitWaitElementToBeClickable(findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()));
-		findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()).click();
+		   explicitWaitElementToBeClickable(findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()));
+		   findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()).click();
 		
 	  }
 	  
@@ -808,17 +807,17 @@ public class AddNewColumsOnPGHelper extends CommonMethodsOfWebDriver {
 		    
 		    explicitWaitElementBy("elementToBeLocated", AddNewColumsOnPGLocater.removePredecessorColumn());
 			
-          actions.moveToElement(findElement(AddNewColumsOnPGLocater.removePredecessorColumn())).build().perform();
+            actions.moveToElement(findElement(AddNewColumsOnPGLocater.removePredecessorColumn())).build().perform();
 			
-          try {Thread.sleep(1000);}catch(InterruptedException ie) {}
+            try {Thread.sleep(1000);}catch(InterruptedException ie) {}
 			
 			explicitWaitElementToBeClickable(findElement(AddNewColumsOnPGLocater.triggerofPredecessorColumn()));
 			findElement(AddNewColumsOnPGLocater.triggerofPredecessorColumn()).click();
 			
 			try {Thread.sleep(1000);}catch(InterruptedException ie) {}
 		
-		explicitWaitElementToBeClickable(findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()));
-		findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()).click();
+		    explicitWaitElementToBeClickable(findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()));
+		    findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()).click();
 		
 	  }
 	  
@@ -830,17 +829,17 @@ public class AddNewColumsOnPGHelper extends CommonMethodsOfWebDriver {
 		    
 		    explicitWaitElementBy("elementToBeLocated", AddNewColumsOnPGLocater.removePriorityColumn());
 			
-          actions.moveToElement(findElement(AddNewColumsOnPGLocater.removePriorityColumn())).build().perform();
+            actions.moveToElement(findElement(AddNewColumsOnPGLocater.removePriorityColumn())).build().perform();
 			
-          try {Thread.sleep(1000);}catch(InterruptedException ie) {}
+            try {Thread.sleep(1000);}catch(InterruptedException ie) {}
 			
 			explicitWaitElementToBeClickable(findElement(AddNewColumsOnPGLocater.triggerofPriorityColumn()));
 			findElement(AddNewColumsOnPGLocater.triggerofPriorityColumn()).click();
 			
 			try {Thread.sleep(1000);}catch(InterruptedException ie) {}
 		
-		explicitWaitElementToBeClickable(findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()));
-		findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()).click();
+		   explicitWaitElementToBeClickable(findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()));
+		   findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()).click();
 		
 	  }
 	  
@@ -852,17 +851,17 @@ public class AddNewColumsOnPGHelper extends CommonMethodsOfWebDriver {
 		    
 		    explicitWaitElementBy("elementToBeLocated", AddNewColumsOnPGLocater.removeRiskColumn());
 			
-          actions.moveToElement(findElement(AddNewColumsOnPGLocater.removeRiskColumn())).build().perform();
+            actions.moveToElement(findElement(AddNewColumsOnPGLocater.removeRiskColumn())).build().perform();
 			
-          try {Thread.sleep(1000);}catch(InterruptedException ie) {}
+            try {Thread.sleep(1000);}catch(InterruptedException ie) {}
 			
 			explicitWaitElementToBeClickable(findElement(AddNewColumsOnPGLocater.triggerofRiskColumn()));
 			findElement(AddNewColumsOnPGLocater.triggerofRiskColumn()).click();
 			
 			try {Thread.sleep(1000);}catch(InterruptedException ie) {}
 		
-		explicitWaitElementToBeClickable(findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()));
-		findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()).click();
+		   explicitWaitElementToBeClickable(findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()));
+		   findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()).click();
 		
 	  }
 	  
@@ -873,17 +872,17 @@ public class AddNewColumsOnPGHelper extends CommonMethodsOfWebDriver {
 		    
 		    explicitWaitElementBy("elementToBeLocated", AddNewColumsOnPGLocater.removeSequenceColumn());
 			
-          actions.moveToElement(findElement(AddNewColumsOnPGLocater.removeSequenceColumn())).build().perform();
-			
-          try {Thread.sleep(1000);}catch(InterruptedException ie) {}
+            actions.moveToElement(findElement(AddNewColumsOnPGLocater.removeSequenceColumn())).build().perform();
+		 	
+            try {Thread.sleep(1000);}catch(InterruptedException ie) {}
 			
 			explicitWaitElementToBeClickable(findElement(AddNewColumsOnPGLocater.triggerofSequenceColumn()));
 			findElement(AddNewColumsOnPGLocater.triggerofSequenceColumn()).click();
 			
 			try {Thread.sleep(1000);}catch(InterruptedException ie) {}
 		
-		explicitWaitElementToBeClickable(findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()));
-		findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()).click();
+		    explicitWaitElementToBeClickable(findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()));
+		    findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()).click();
 	
 	  }
 	  
@@ -894,17 +893,17 @@ public class AddNewColumsOnPGHelper extends CommonMethodsOfWebDriver {
 		    
 		    explicitWaitElementBy("elementToBeLocated", AddNewColumsOnPGLocater.removeStickersColumn());
 			
-          actions.moveToElement(findElement(AddNewColumsOnPGLocater.removeStickersColumn())).build().perform();
+            actions.moveToElement(findElement(AddNewColumsOnPGLocater.removeStickersColumn())).build().perform();
 			
-          try {Thread.sleep(1000);}catch(InterruptedException ie) {}
+            try {Thread.sleep(1000);}catch(InterruptedException ie) {}
 			
 			explicitWaitElementToBeClickable(findElement(AddNewColumsOnPGLocater.triggerofStickersColumn()));
 			findElement(AddNewColumsOnPGLocater.triggerofStickersColumn()).click();
 			
 			try {Thread.sleep(1000);}catch(InterruptedException ie) {}
 		
-		explicitWaitElementToBeClickable(findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()));
-		findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()).click();
+		   explicitWaitElementToBeClickable(findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()));
+		   findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()).click();
 		
 	  }
 	  
@@ -915,17 +914,17 @@ public class AddNewColumsOnPGHelper extends CommonMethodsOfWebDriver {
 		    
 		    explicitWaitElementBy("elementToBeLocated", AddNewColumsOnPGLocater.removeSuccessorsColumn());
 			
-          actions.moveToElement(findElement(AddNewColumsOnPGLocater.removeSuccessorsColumn())).build().perform();
+            actions.moveToElement(findElement(AddNewColumsOnPGLocater.removeSuccessorsColumn())).build().perform();
 			
-          try {Thread.sleep(1000);}catch(InterruptedException ie) {}
+            try {Thread.sleep(1000);}catch(InterruptedException ie) {}
 			
 			explicitWaitElementToBeClickable(findElement(AddNewColumsOnPGLocater.triggerofSuccessorColumn()));
 			findElement(AddNewColumsOnPGLocater.triggerofSuccessorColumn()).click();
 			
 			try {Thread.sleep(1000);}catch(InterruptedException ie) {}
 		
-		explicitWaitElementToBeClickable(findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()));
-		findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()).click();
+		    explicitWaitElementToBeClickable(findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()));
+		    findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()).click();
 		
 	  }
 	  
@@ -945,8 +944,8 @@ public class AddNewColumsOnPGHelper extends CommonMethodsOfWebDriver {
 			
 			try {Thread.sleep(1000);}catch(InterruptedException ie) {}
 		
-		explicitWaitElementToBeClickable(findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()));
-		findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()).click();
+		    explicitWaitElementToBeClickable(findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()));
+		    findElement(ToAddingConstraintsColumnInCVLocators.ClickOnRemoveColumn()).click();
 		
 	  }
 	  

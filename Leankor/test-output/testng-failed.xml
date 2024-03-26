@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test_package.TestAddNewColumnOnPG">
+      <class name="test_package.TestCreateActivityAndAutomateThreedotfunctionalityOnPlanGantt">
         <methods>
-          <include name="removePercentageDoneColumn"/>
+          <include name="quickActionsOnMilstone"/>
         </methods>
-      </class> <!-- test_package.TestAddNewColumnOnPG -->
+      </class> <!-- test_package.TestCreateActivityAndAutomateThreedotfunctionalityOnPlanGantt -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

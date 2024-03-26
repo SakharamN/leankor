@@ -502,11 +502,12 @@ public class AddKanbanCardRegressionOnCalendarViewLocater {
 	}
 	public static final By closeKanbanBoardChatterPopup()
 	{
-		return By.xpath("//div[@class='x-window x-layer x-window-default x-closable x-window-closable x-window-default-closable x-border-box x-resizable x-window-resizable x-window-default-resizable']//div[@class='x-tool x-box-item x-tool-default x-tool-after-title']");
+		//return By.xpath("//div[@class='x-window x-layer x-window-default x-closable x-window-closable x-window-default-closable x-border-box x-resizable x-window-resizable x-window-default-resizable']//div[@class='x-tool x-box-item x-tool-default x-tool-after-title']");
+		return By.xpath("//div[contains(@class,'x-window-header x-header x-header-draggable x-docked x-unselectable')]//div[@class='x-tool x-box-item x-tool-default x-tool-after-title']");
 	}
 	
 	
-	// xpath for cloning the card on CV
+    //xpath for cloning the card on CV
 	
 	public static final By ClickOnCloneCard()
 	{
@@ -543,7 +544,7 @@ public class AddKanbanCardRegressionOnCalendarViewLocater {
 		//return By.xpath("//div[contains(@class,'x-datepicker x-layer x-datepicker-default x-unselectable x-border-box')]//table/tbody/tr/td[contains(@class,'x-datepicker-active x-datepicker-today x-datepicker-cell x-datepicker-selected')]");
 		
 		//return By.xpath("//table[@class='x-datepicker-inner']/tbody/tr/td[@title='Today']");
-	//	return By.xpath("//div[@class='x-datepicker-footer']/a");
+	    //	return By.xpath("//div[@class='x-datepicker-footer']/a");
 		//return By.xpath("//table[contains(@class,'x-datepicker-inner x-focus x-datepicker-focus x-datepicker-default-focus')]/tbody/tr/td[contains(@class,'x-datepicker-active x-datepicker-today x-datepicker-cell x-datepicker-selected')]");
 		
 		return By.xpath("//table[contains(@class,'x-datepicker-inner x-focus x-datepicker-focus x-datepicker-default-focus')]/tbody/tr/td[contains(@class,'x-datepicker-active x-datepicker-today ')]");
