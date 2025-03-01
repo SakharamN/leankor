@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="56" passed="56" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-18T18:37:02 IST" name="Suite" finished-at="2024-11-18T18:47:43 IST" duration-ms="640799">
+    <groups>
+    </groups>
+    <test started-at="2024-11-18T18:37:02 IST" name="Test" finished-at="2024-11-18T18:47:43 IST" duration-ms="640799">
+      <class name="test_package.TestCreatingSingleActivityAndAutomateEditInformationfieldOnPg">
+        <test-method signature="Create_SingleActivity()[pri:0, instance:test_package.TestCreatingSingleActivityAndAutomateEditInformationfieldOnPg@453d496b]" started-at="2024-11-18T18:37:02 IST" name="Create_SingleActivity" finished-at="2024-11-18T18:38:12 IST" duration-ms="70253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create_SingleActivity -->
+        <test-method signature="ClickOn_SideStatusColumn()[pri:1, instance:test_package.TestCreatingSingleActivityAndAutomateEditInformationfieldOnPg@453d496b]" started-at="2024-11-18T18:38:12 IST" name="ClickOn_SideStatusColumn" finished-at="2024-11-18T18:38:29 IST" duration-ms="16426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOn_SideStatusColumn -->
+        <test-method signature="ClickOn_SideLogTimeColumn()[pri:2, instance:test_package.TestCreatingSingleActivityAndAutomateEditInformationfieldOnPg@453d496b]" started-at="2024-11-18T18:38:29 IST" name="ClickOn_SideLogTimeColumn" finished-at="2024-11-18T18:38:38 IST" duration-ms="9736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOn_SideLogTimeColumn -->
+        <test-method signature="editLogTime()[pri:3, instance:test_package.TestCreatingSingleActivityAndAutomateEditInformationfieldOnPg@453d496b]" started-at="2024-11-18T18:38:38 IST" name="editLogTime" finished-at="2024-11-18T18:38:52 IST" duration-ms="13933" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editLogTime -->
+        <test-method signature="clickOn_RiskTab()[pri:4, instance:test_package.TestCreatingSingleActivityAndAutomateEditInformationfieldOnPg@453d496b]" started-at="2024-11-18T18:38:52 IST" name="clickOn_RiskTab" finished-at="2024-11-18T18:39:05 IST" duration-ms="12488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOn_RiskTab -->
+        <test-method signature="clickOnSubscriberOfActivity()[pri:6, instance:test_package.TestCreatingSingleActivityAndAutomateEditInformationfieldOnPg@453d496b]" started-at="2024-11-18T18:39:05 IST" name="clickOnSubscriberOfActivity" finished-at="2024-11-18T18:39:15 IST" duration-ms="9802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnSubscriberOfActivity -->
+        <test-method signature="clickOneditSubscriber()[pri:7, instance:test_package.TestCreatingSingleActivityAndAutomateEditInformationfieldOnPg@453d496b]" started-at="2024-11-18T18:39:15 IST" name="clickOneditSubscriber" finished-at="2024-11-18T18:39:20 IST" duration-ms="5176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOneditSubscriber -->
+        <test-method signature="clickOn_ResourceTabOnActivity()[pri:8, instance:test_package.TestCreatingSingleActivityAndAutomateEditInformationfieldOnPg@453d496b]" started-at="2024-11-18T18:39:20 IST" name="clickOn_ResourceTabOnActivity" finished-at="2024-11-18T18:39:35 IST" duration-ms="14868" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOn_ResourceTabOnActivity -->
+        <test-method signature="clickOn_Normal_SchedulingMode()[pri:9, instance:test_package.TestCreatingSingleActivityAndAutomateEditInformationfieldOnPg@453d496b]" started-at="2024-11-18T18:39:35 IST" name="clickOn_Normal_SchedulingMode" finished-at="2024-11-18T18:39:41 IST" duration-ms="6701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOn_Normal_SchedulingMode -->
+        <test-method signature="dynamicAssignment_SchedulingMode()[pri:12, instance:test_package.TestCreatingSingleActivityAndAutomateEditInformationfieldOnPg@453d496b]" started-at="2024-11-18T18:39:41 IST" name="dynamicAssignment_SchedulingMode" finished-at="2024-11-18T18:39:48 IST" duration-ms="6294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dynamicAssignment_SchedulingMode -->
+        <test-method signature="addingStickers_OnActivity()[pri:13, instance:test_package.TestCreatingSingleActivityAndAutomateEditInformationfieldOnPg@453d496b]" started-at="2024-11-18T18:39:48 IST" name="addingStickers_OnActivity" finished-at="2024-11-18T18:41:04 IST" duration-ms="76626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingStickers_OnActivity -->
+      </class> <!-- test_package.TestCreatingSingleActivityAndAutomateEditInformationfieldOnPg -->
+      <class name="test_package.TestAddNewColumnOnPG">
+        <test-method signature="addPercentageDoneColumn()[pri:1, instance:test_package.TestAddNewColumnOnPG@6f911326]" started-at="2024-11-18T18:44:37 IST" name="addPercentageDoneColumn" finished-at="2024-11-18T18:44:51 IST" duration-ms="13639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addPercentageDoneColumn -->
+        <test-method signature="addAssignedResourceColumn()[pri:2, instance:test_package.TestAddNewColumnOnPG@6f911326]" started-at="2024-11-18T18:44:51 IST" name="addAssignedResourceColumn" finished-at="2024-11-18T18:44:54 IST" duration-ms="3257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAssignedResourceColumn -->
+        <test-method signature="addCategoryColumn()[pri:3, instance:test_package.TestAddNewColumnOnPG@6f911326]" started-at="2024-11-18T18:44:54 IST" name="addCategoryColumn" finished-at="2024-11-18T18:44:58 IST" duration-ms="3930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCategoryColumn -->
+        <test-method signature="addDescriptionColumn()[pri:4, instance:test_package.TestAddNewColumnOnPG@6f911326]" started-at="2024-11-18T18:44:58 IST" name="addDescriptionColumn" finished-at="2024-11-18T18:45:03 IST" duration-ms="4848" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addDescriptionColumn -->
+        <test-method signature="addDiscussColumn()[pri:5, instance:test_package.TestAddNewColumnOnPG@6f911326]" started-at="2024-11-18T18:45:03 IST" name="addDiscussColumn" finished-at="2024-11-18T18:45:10 IST" duration-ms="6535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addDiscussColumn -->
+        <test-method signature="addElapsedTimeColumn()[pri:6, instance:test_package.TestAddNewColumnOnPG@6f911326]" started-at="2024-11-18T18:45:10 IST" name="addElapsedTimeColumn" finished-at="2024-11-18T18:45:15 IST" duration-ms="5095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addElapsedTimeColumn -->
+        <test-method signature="addFilesColumn()[pri:7, instance:test_package.TestAddNewColumnOnPG@6f911326]" started-at="2024-11-18T18:45:15 IST" name="addFilesColumn" finished-at="2024-11-18T18:45:20 IST" duration-ms="5267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addFilesColumn -->
+        <test-method signature="addOnHoldColumn()[pri:8, instance:test_package.TestAddNewColumnOnPG@6f911326]" started-at="2024-11-18T18:45:20 IST" name="addOnHoldColumn" finished-at="2024-11-18T18:45:25 IST" duration-ms="5457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addOnHoldColumn -->
+        <test-method signature="addPredecessorColumn()[pri:9, instance:test_package.TestAddNewColumnOnPG@6f911326]" started-at="2024-11-18T18:45:25 IST" name="addPredecessorColumn" finished-at="2024-11-18T18:45:38 IST" duration-ms="12621" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addPredecessorColumn -->
+        <test-method signature="addPriorityColumn()[pri:10, instance:test_package.TestAddNewColumnOnPG@6f911326]" started-at="2024-11-18T18:45:38 IST" name="addPriorityColumn" finished-at="2024-11-18T18:45:44 IST" duration-ms="5759" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addPriorityColumn -->
+        <test-method signature="addRiskColumn()[pri:11, instance:test_package.TestAddNewColumnOnPG@6f911326]" started-at="2024-11-18T18:45:44 IST" name="addRiskColumn" finished-at="2024-11-18T18:45:50 IST" duration-ms="5857" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addRiskColumn -->
+        <test-method signature="addSequenceColumn()[pri:12, instance:test_package.TestAddNewColumnOnPG@6f911326]" started-at="2024-11-18T18:45:50 IST" name="addSequenceColumn" finished-at="2024-11-18T18:45:56 IST" duration-ms="6220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addSequenceColumn -->
+        <test-method signature="addStickersColumn()[pri:13, instance:test_package.TestAddNewColumnOnPG@6f911326]" started-at="2024-11-18T18:45:56 IST" name="addStickersColumn" finished-at="2024-11-18T18:46:02 IST" duration-ms="6183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addStickersColumn -->
+        <test-method signature="addSuccessorsColumn()[pri:14, instance:test_package.TestAddNewColumnOnPG@6f911326]" started-at="2024-11-18T18:46:02 IST" name="addSuccessorsColumn" finished-at="2024-11-18T18:46:09 IST" duration-ms="6979" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addSuccessorsColumn -->
+        <test-method signature="addTimetoLaunchColumn()[pri:15, instance:test_package.TestAddNewColumnOnPG@6f911326]" started-at="2024-11-18T18:46:09 IST" name="addTimetoLaunchColumn" finished-at="2024-11-18T18:46:16 IST" duration-ms="6634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTimetoLaunchColumn -->
+        <test-method signature="removePercentageDoneColumn()[pri:16, instance:test_package.TestAddNewColumnOnPG@6f911326]" started-at="2024-11-18T18:46:16 IST" name="removePercentageDoneColumn" finished-at="2024-11-18T18:46:30 IST" duration-ms="14086" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removePercentageDoneColumn -->
+        <test-method signature="removeAssignedResourceColumn()[pri:17, instance:test_package.TestAddNewColumnOnPG@6f911326]" started-at="2024-11-18T18:46:30 IST" name="removeAssignedResourceColumn" finished-at="2024-11-18T18:46:43 IST" duration-ms="12884" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeAssignedResourceColumn -->
+        <test-method signature="removeCategoryColumn()[pri:18, instance:test_package.TestAddNewColumnOnPG@6f911326]" started-at="2024-11-18T18:46:43 IST" name="removeCategoryColumn" finished-at="2024-11-18T18:46:47 IST" duration-ms="3938" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeCategoryColumn -->
+        <test-method signature="removeDescriptionColumn()[pri:19, instance:test_package.TestAddNewColumnOnPG@6f911326]" started-at="2024-11-18T18:46:47 IST" name="removeDescriptionColumn" finished-at="2024-11-18T18:46:51 IST" duration-ms="3861" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeDescriptionColumn -->
+        <test-method signature="removeDiscussColumn()[pri:20, instance:test_package.TestAddNewColumnOnPG@6f911326]" started-at="2024-11-18T18:46:51 IST" name="removeDiscussColumn" finished-at="2024-11-18T18:46:54 IST" duration-ms="3929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeDiscussColumn -->
+        <test-method signature="removeElapsedTimeColumn()[pri:21, instance:test_package.TestAddNewColumnOnPG@6f911326]" started-at="2024-11-18T18:46:54 IST" name="removeElapsedTimeColumn" finished-at="2024-11-18T18:47:02 IST" duration-ms="7070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeElapsedTimeColumn -->
+        <test-method signature="removeFilesColumn()[pri:22, instance:test_package.TestAddNewColumnOnPG@6f911326]" started-at="2024-11-18T18:47:02 IST" name="removeFilesColumn" finished-at="2024-11-18T18:47:05 IST" duration-ms="3770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeFilesColumn -->
+        <test-method signature="removeOnHoldColumn()[pri:23, instance:test_package.TestAddNewColumnOnPG@6f911326]" started-at="2024-11-18T18:47:05 IST" name="removeOnHoldColumn" finished-at="2024-11-18T18:47:09 IST" duration-ms="3884" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeOnHoldColumn -->
+        <test-method signature="removePredecessorColumn()[pri:24, instance:test_package.TestAddNewColumnOnPG@6f911326]" started-at="2024-11-18T18:47:09 IST" name="removePredecessorColumn" finished-at="2024-11-18T18:47:13 IST" duration-ms="3834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removePredecessorColumn -->
+        <test-method signature="removePriorityColumn()[pri:25, instance:test_package.TestAddNewColumnOnPG@6f911326]" started-at="2024-11-18T18:47:13 IST" name="removePriorityColumn" finished-at="2024-11-18T18:47:23 IST" duration-ms="10263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removePriorityColumn -->
+        <test-method signature="removeRiskColumn()[pri:26, instance:test_package.TestAddNewColumnOnPG@6f911326]" started-at="2024-11-18T18:47:23 IST" name="removeRiskColumn" finished-at="2024-11-18T18:47:27 IST" duration-ms="3963" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeRiskColumn -->
+        <test-method signature="removeSequenceColumn()[pri:27, instance:test_package.TestAddNewColumnOnPG@6f911326]" started-at="2024-11-18T18:47:27 IST" name="removeSequenceColumn" finished-at="2024-11-18T18:47:31 IST" duration-ms="3876" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeSequenceColumn -->
+        <test-method signature="removeStickersColumn()[pri:28, instance:test_package.TestAddNewColumnOnPG@6f911326]" started-at="2024-11-18T18:47:31 IST" name="removeStickersColumn" finished-at="2024-11-18T18:47:35 IST" duration-ms="3797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeStickersColumn -->
+        <test-method signature="removeSuccessorsColumn()[pri:29, instance:test_package.TestAddNewColumnOnPG@6f911326]" started-at="2024-11-18T18:47:35 IST" name="removeSuccessorsColumn" finished-at="2024-11-18T18:47:39 IST" duration-ms="3991" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeSuccessorsColumn -->
+        <test-method signature="removeTimeToLaunch()[pri:30, instance:test_package.TestAddNewColumnOnPG@6f911326]" started-at="2024-11-18T18:47:39 IST" name="removeTimeToLaunch" finished-at="2024-11-18T18:47:43 IST" duration-ms="3824" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeTimeToLaunch -->
+      </class> <!-- test_package.TestAddNewColumnOnPG -->
+      <class name="test_package.TestToCheckHeaderButtonsOnPlanGanttBoard">
+        <test-method signature="checkUndoButton()[pri:2, instance:test_package.TestToCheckHeaderButtonsOnPlanGanttBoard@de8039f]" started-at="2024-11-18T18:44:06 IST" name="checkUndoButton" finished-at="2024-11-18T18:44:17 IST" duration-ms="11339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkUndoButton -->
+        <test-method signature="clickOnBaselineDropdown()[pri:3, instance:test_package.TestToCheckHeaderButtonsOnPlanGanttBoard@de8039f]" started-at="2024-11-18T18:44:17 IST" name="clickOnBaselineDropdown" finished-at="2024-11-18T18:44:37 IST" duration-ms="20545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnBaselineDropdown -->
+      </class> <!-- test_package.TestToCheckHeaderButtonsOnPlanGanttBoard -->
+      <class name="test_package.TestCreateMilestoneAndAutomateThreedotfunctionalityOnPg">
+        <test-method signature="addButtonfunctionality()[pri:1, instance:test_package.TestCreateMilestoneAndAutomateThreedotfunctionalityOnPg@3e104d4b]" started-at="2024-11-18T18:43:39 IST" name="addButtonfunctionality" finished-at="2024-11-18T18:44:04 IST" duration-ms="24590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addButtonfunctionality -->
+        <test-method signature="converToActivityGroup()[pri:3, instance:test_package.TestCreateMilestoneAndAutomateThreedotfunctionalityOnPg@3e104d4b]" started-at="2024-11-18T18:44:04 IST" name="converToActivityGroup" finished-at="2024-11-18T18:44:06 IST" duration-ms="1574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- converToActivityGroup -->
+      </class> <!-- test_package.TestCreateMilestoneAndAutomateThreedotfunctionalityOnPg -->
+      <class name="test_package.TestCreateActivityAndAutomateThreedotfunctionalityOnPlanGantt">
+        <test-method signature="addButtonfunctionality()[pri:1, instance:test_package.TestCreateActivityAndAutomateThreedotfunctionalityOnPlanGantt@7308ffff]" started-at="2024-11-18T18:41:04 IST" name="addButtonfunctionality" finished-at="2024-11-18T18:41:27 IST" duration-ms="22904" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addButtonfunctionality -->
+        <test-method signature="converToActivityGroup()[pri:3, instance:test_package.TestCreateActivityAndAutomateThreedotfunctionalityOnPlanGantt@7308ffff]" started-at="2024-11-18T18:41:27 IST" name="converToActivityGroup" finished-at="2024-11-18T18:41:57 IST" duration-ms="29409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- converToActivityGroup -->
+        <test-method signature="convertTomilestone()[pri:4, instance:test_package.TestCreateActivityAndAutomateThreedotfunctionalityOnPlanGantt@7308ffff]" started-at="2024-11-18T18:41:57 IST" name="convertTomilestone" finished-at="2024-11-18T18:42:30 IST" duration-ms="33167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- convertTomilestone -->
+      </class> <!-- test_package.TestCreateActivityAndAutomateThreedotfunctionalityOnPlanGantt -->
+      <class name="test_package.TestCreateSingleMilestoneAndAutomateEditInformationfield">
+        <test-method signature="clickOn_SideStatusColumn()[pri:1, instance:test_package.TestCreateSingleMilestoneAndAutomateEditInformationfield@14d8444b]" started-at="2024-11-18T18:42:30 IST" name="clickOn_SideStatusColumn" finished-at="2024-11-18T18:42:42 IST" duration-ms="12477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOn_SideStatusColumn -->
+        <test-method signature="clickOn_SideLogTimeColumn()[pri:2, instance:test_package.TestCreateSingleMilestoneAndAutomateEditInformationfield@14d8444b]" started-at="2024-11-18T18:42:42 IST" name="clickOn_SideLogTimeColumn" finished-at="2024-11-18T18:42:51 IST" duration-ms="8604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOn_SideLogTimeColumn -->
+        <test-method signature="clickOn_editLogTime()[pri:3, instance:test_package.TestCreateSingleMilestoneAndAutomateEditInformationfield@14d8444b]" started-at="2024-11-18T18:42:51 IST" name="clickOn_editLogTime" finished-at="2024-11-18T18:43:05 IST" duration-ms="14108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOn_editLogTime -->
+        <test-method signature="clickOn_RiskTab()[pri:4, instance:test_package.TestCreateSingleMilestoneAndAutomateEditInformationfield@14d8444b]" started-at="2024-11-18T18:43:05 IST" name="clickOn_RiskTab" finished-at="2024-11-18T18:43:14 IST" duration-ms="9345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOn_RiskTab -->
+        <test-method signature="clickOnSubscriberOfActivity()[pri:6, instance:test_package.TestCreateSingleMilestoneAndAutomateEditInformationfield@14d8444b]" started-at="2024-11-18T18:43:14 IST" name="clickOnSubscriberOfActivity" finished-at="2024-11-18T18:43:24 IST" duration-ms="9526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnSubscriberOfActivity -->
+        <test-method signature="clickOneditSubscriber()[pri:7, instance:test_package.TestCreateSingleMilestoneAndAutomateEditInformationfield@14d8444b]" started-at="2024-11-18T18:43:24 IST" name="clickOneditSubscriber" finished-at="2024-11-18T18:43:29 IST" duration-ms="5219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOneditSubscriber -->
+        <test-method signature="Manually_ScheduledModeOnMilestone()[pri:8, instance:test_package.TestCreateSingleMilestoneAndAutomateEditInformationfield@14d8444b]" started-at="2024-11-18T18:43:29 IST" name="Manually_ScheduledModeOnMilestone" finished-at="2024-11-18T18:43:33 IST" duration-ms="3512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Manually_ScheduledModeOnMilestone -->
+        <test-method signature="add_files_OnMilestone()[pri:9, instance:test_package.TestCreateSingleMilestoneAndAutomateEditInformationfield@14d8444b]" started-at="2024-11-18T18:43:33 IST" name="add_files_OnMilestone" finished-at="2024-11-18T18:43:39 IST" duration-ms="6778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_files_OnMilestone -->
+      </class> <!-- test_package.TestCreateSingleMilestoneAndAutomateEditInformationfield -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

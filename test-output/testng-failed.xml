@@ -3,17 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test_package.TestCreateMilestoneAndAutomateThreedotfunctionalityOnPg">
+      <class name="test_package.TestToCheckHeaderButtonsOnPlanGanttBoard">
         <methods>
-          <include name="performIndentOutdentExternalDependancyCloneAndDeleteOperation"/>
-          <include name="converToActivityGroup"/>
-          <include name="discusstabOnmilestone"/>
-          <include name="convertTomilestone"/>
-          <include name="quickActionsOnMilstone"/>
-          <include name="singleMilestone"/>
-          <include name="addButtonfunctionality"/>
+          <include name="checkUndoButtonFunctionality"/>
+          <include name="createMultipleBaselines"/>
+          <include name="advancefilterOnPlantGantt"/>
+          <include name="showAndHideBaseline"/>
+          <include name="clickOnShowTab"/>
+          <include name="Singlemilestone"/>
+          <include name="checkFilterBaselinefunctionality"/>
         </methods>
-      </class> <!-- test_package.TestCreateMilestoneAndAutomateThreedotfunctionalityOnPg -->
+      </class> <!-- test_package.TestToCheckHeaderButtonsOnPlanGanttBoard -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

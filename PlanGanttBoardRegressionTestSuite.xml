@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="1" parallel="false">
+  <test thread-count="1" name="Test">
+   <parameter name="browser" value="chrome"/>
+    <classes>
+     
+     <!-- creating a single activity and testing various operations related to editing its information fields on a page. -->
+		     
+	
+	   
+		     <class name="test_package.TestCreatingSingleActivityAndAutomateEditInformationfieldOnPg">
+				 <methods>
+					 <include name="Create_SingleActivity" />
+					 <include name="ClickOn_SideStatusColumn"/>
+					 <include name="ClickOn_LogTimeSideColumn"/>
+					 <include name="editLogTime"/>
+					 <include name="clickOn_RiskSideColumn"/>
+					 <include name="editRisk"/>             
+					 <include name="clickOn_SubscriberSideColumn"/>
+					 <include name="clickOneditSubscriber"/>
+					 <include name="clickOn_ResourceSideColumnOnActivity"/>
+					 <exclude name="clickOn_Normal_SchedulingMode"/>
+				     <exclude name="fixedDuration_SchedulingMode"/>
+					 <exclude name="effortDriven_SchedulingMode"/>
+					 <exclude name="dynamicAssignment_SchedulingMode"/>
+					 <include name="addingStickers_OnActivity"/>
+					 <include name="clickOn_FilesSideColumn"/>
+				 </methods>
+		      </class>
+    
+  
+ 	 
+			       	 
+			      <class name="test_package.TestCreateActivityAndAutomateThreedotfunctionalityOnPlanGantt">
+					  <methods>
+					      <exclude name="Create_SingleActivity"/> 
+					      <include name="quickActionsOnActivity"/>  
+						  <include name="addButtonfunctionality"/>
+					      <include name="clickOnDiscussTabOnActivity"/> 
+						  <include name="converToActivityGroup"/>
+						  <include name="performIndentOutdentOperatisOnActivity"/>
+						  <include name="cloneActivity"/>
+						  <include name="deleteOperation_OnActivity"/>
+						  <include name="performExternalDependancyOperationOnActivity"/>
+					   
+						 
+						  
+					  </methods>
+					  
+					  
+				  </class>
+			     
+			    
+	 
+		
+		
+			     
+			      <class name="test_package.TestCreateSingleMilestoneAndAutomateEditInformationfield">  
+					    <methods>
+						   
+				           <exclude name="singleMilestone"/>
+						   <include name="clickOn_SideStatusColumn"/>
+						   <include name="clickOn_SideLogTimeColumn"/>
+						   <include name="clickOn_editLogTime"/>
+						   <include name="clickOn_RiskTab"/>
+				           <include name="editRisk"/> 
+						   <include name="clickOn_SubscriberTabOnMilestone"/>
+						   <include name="editSubscriberOnMilestone"/>
+						   <include name="add_files_OnMilestone"/>
+						   
+						   
+					   </methods>
+					   
+			       </class>
+       
+          
+	
+		    
+		      
+		       <class name="test_package.TestCreateMilestoneAndAutomateThreedotfunctionalityOnPg">   
+				        <methods>
+						 	<exclude name="singleMilestone"/> 
+						 	<include name="quickActionsOnMilstone"/> 
+							<include name="addButtonfunctionality"/>
+						    <include name="discusstabOnmilestone"/> 
+							<include name="converToActivityGroup"/>
+						    <include name="convertTomilestone"/>
+						   
+						    						
+						</methods>
+		        
+		        </class>
+        
+    
+       	  	  
+            	
+                 <class name="test_package.TestToCheckHeaderButtonsOnPlanGanttBoard"> 
+					   <methods>
+						        <exclude name="Singlemilestone"/> 
+						        <include name="advancefilterOnPlantGantt"/> 
+						        <include name="checkUndoButtonFunctionality"/>
+						        <include name="checkTimespanFunctionality"/>
+						        <include name="createMultipleBaselines"/>
+						        <include name="showAndHideBaseline"/>
+						        <include name="showBaselineHistory"/>
+						        <include name="checkFilterBaselinefunctionality"/>
+						        <include name="clickOnShowTab"/> 
+						       
+						  
+						     
+					   </methods>
+					   
+                </class>
+               
+     
+        
+            
+                <class name="test_package.TestSavingMultipleViewsInPlanGant">
+					<methods>
+						<exclude name="Singlemilestone"/>
+						<include name="saveDefaultView"/>   
+				        <include name="createView1WithAddColumn"/>
+				        <include name="createView2Withfilter"/>
+				        <include name="createView3WithBaseline"/>
+				        <include name="filterBoardByTitle"/>
+				        <include name="hideAndShowScheduleICon"/>
+				        <include name="TestSavingMultipleViewsInPlanGant"/>
+						
+						
+					</methods>
+					
+				</class>
+   
+      
+    
+        
+        
+            <class name="test_package.TestAddNewColumnOnPG">
+				 <methods>
+					 <exclude name="Create_SingleActivity"/> 
+					 <include name="addPercentageDoneColumn"/>
+					 <include name="addAssignedResourceColumn"/>
+					 <include name="addCategoryColumn"/>
+					 <include name="addDescriptionColumn"/>
+					 <include name="addDiscussColumn"/>
+					 <include name="addElapsedTimeColumn"/>
+					 <include name="addFilesColumn"/>
+					 <include name="addOnHoldColumn"/>
+					 <include name="addPredecessorColumn"/>
+					 <include name="addPriorityColumn"/>
+					 <include name="addRiskColumn"/>
+					 <include name="addSequenceColumn"/>
+					 <include name="addStickersColumn"/>
+					 <include name="addSuccessorsColumn"/>
+					 <include name="addTimetoLaunchColumn"/>
+					 <include name="removePercentageDoneColumn"/>
+					 <include name="removeAssignedResourceColumn"/>
+					 <include name="removeCategoryColumn"/>
+					 <include name="removeDescriptionColumn"/>
+					 <include name="removeDiscussColumn"/>
+					 <include name="removeElapsedTimeColumn"/>
+					 <include name="removeFilesColumn"/>
+					 <include name="removeOnHoldColumn"/>
+					 <include name="removePredecessorColumn"/> 
+					 <include name="removePriorityColumn"/>
+					 <include name="removeRiskColumn"/>
+					 <include name="removeSequenceColumn"/>
+					 <include name="removeStickersColumn"/>
+					 <include name="removeSuccessorsColumn"/>
+					 <include name="removeTimeToLaunch"/>
+				 </methods>
+             </class>
+   
+
+   
+		   
+		      <!--  
+		 
+		     <class name="test_package.TestPlanGanttBoardSetting">  
+						
+						<methods>
+							
+						    <exclude name="createActivity"/> 
+							<include name="showCriticalPath"/>
+							
+						
+							
+						</methods>
+						
+		            </class>
+		            
+		            
+		              -->
+            
+            
+       
+
+     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

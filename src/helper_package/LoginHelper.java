@@ -4,19 +4,16 @@ import common_package.CommonMethodsOfWebDriver;
 import pom_package.LoginLocator;
 
 public class LoginHelper extends CommonMethodsOfWebDriver {
-	
-	public void user_Name()
-	{
-		findElement(LoginLocator.userName()).sendKeys("pratish.laad@aplitetech.com.qa6");
+
+	public void user_Name() {
+		findElement(LoginLocator.userName());
 	}
-	
-	public void password_Field()
-	{
-		findElement(LoginLocator.password()).sendKeys("kanban21");
+
+	public void password_Field() {
+		findElement(LoginLocator.password());
 	}
-	
-	public void Login_button()
-	{
-		findElement(LoginLocator.loginButton()).click();
+
+	public void Login_button() {
+		findElement(LoginLocator.loginButton());
 	}
 }
