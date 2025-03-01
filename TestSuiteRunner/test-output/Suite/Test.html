@@ -1,0 +1,360 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>56/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Nov 18 18:37:02 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>640 seconds (640799 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test_package.TestAddNewColumnOnPG.addDescriptionColumn()'><b>addDescriptionColumn</b><br>Test class: test_package.TestAddNewColumnOnPG</td>
+<td></td>
+<td>4</td>
+<td>test_package.TestAddNewColumnOnPG@6f911326</td></tr>
+<tr>
+<td title='test_package.TestAddNewColumnOnPG.addSequenceColumn()'><b>addSequenceColumn</b><br>Test class: test_package.TestAddNewColumnOnPG</td>
+<td></td>
+<td>6</td>
+<td>test_package.TestAddNewColumnOnPG@6f911326</td></tr>
+<tr>
+<td title='test_package.TestAddNewColumnOnPG.removeSequenceColumn()'><b>removeSequenceColumn</b><br>Test class: test_package.TestAddNewColumnOnPG</td>
+<td></td>
+<td>3</td>
+<td>test_package.TestAddNewColumnOnPG@6f911326</td></tr>
+<tr>
+<td title='test_package.TestAddNewColumnOnPG.removeDiscussColumn()'><b>removeDiscussColumn</b><br>Test class: test_package.TestAddNewColumnOnPG</td>
+<td></td>
+<td>3</td>
+<td>test_package.TestAddNewColumnOnPG@6f911326</td></tr>
+<tr>
+<td title='test_package.TestCreatingSingleActivityAndAutomateEditInformationfieldOnPg.clickOnSubscriberOfActivity()'><b>clickOnSubscriberOfActivity</b><br>Test class: test_package.TestCreatingSingleActivityAndAutomateEditInformationfieldOnPg</td>
+<td></td>
+<td>9</td>
+<td>test_package.TestCreatingSingleActivityAndAutomateEditInformationfieldOnPg@453d496b</td></tr>
+<tr>
+<td title='test_package.TestAddNewColumnOnPG.removeDescriptionColumn()'><b>removeDescriptionColumn</b><br>Test class: test_package.TestAddNewColumnOnPG</td>
+<td></td>
+<td>3</td>
+<td>test_package.TestAddNewColumnOnPG@6f911326</td></tr>
+<tr>
+<td title='test_package.TestCreatingSingleActivityAndAutomateEditInformationfieldOnPg.clickOn_Normal_SchedulingMode()'><b>clickOn_Normal_SchedulingMode</b><br>Test class: test_package.TestCreatingSingleActivityAndAutomateEditInformationfieldOnPg</td>
+<td></td>
+<td>6</td>
+<td>test_package.TestCreatingSingleActivityAndAutomateEditInformationfieldOnPg@453d496b</td></tr>
+<tr>
+<td title='test_package.TestAddNewColumnOnPG.addTimetoLaunchColumn()'><b>addTimetoLaunchColumn</b><br>Test class: test_package.TestAddNewColumnOnPG</td>
+<td></td>
+<td>6</td>
+<td>test_package.TestAddNewColumnOnPG@6f911326</td></tr>
+<tr>
+<td title='test_package.TestCreateActivityAndAutomateThreedotfunctionalityOnPlanGantt.converToActivityGroup()'><b>converToActivityGroup</b><br>Test class: test_package.TestCreateActivityAndAutomateThreedotfunctionalityOnPlanGantt</td>
+<td></td>
+<td>29</td>
+<td>test_package.TestCreateActivityAndAutomateThreedotfunctionalityOnPlanGantt@7308ffff</td></tr>
+<tr>
+<td title='test_package.TestAddNewColumnOnPG.removeOnHoldColumn()'><b>removeOnHoldColumn</b><br>Test class: test_package.TestAddNewColumnOnPG</td>
+<td></td>
+<td>3</td>
+<td>test_package.TestAddNewColumnOnPG@6f911326</td></tr>
+<tr>
+<td title='test_package.TestAddNewColumnOnPG.removePercentageDoneColumn()'><b>removePercentageDoneColumn</b><br>Test class: test_package.TestAddNewColumnOnPG</td>
+<td></td>
+<td>14</td>
+<td>test_package.TestAddNewColumnOnPG@6f911326</td></tr>
+<tr>
+<td title='test_package.TestCreateSingleMilestoneAndAutomateEditInformationfield.clickOnSubscriberOfActivity()'><b>clickOnSubscriberOfActivity</b><br>Test class: test_package.TestCreateSingleMilestoneAndAutomateEditInformationfield</td>
+<td></td>
+<td>9</td>
+<td>test_package.TestCreateSingleMilestoneAndAutomateEditInformationfield@14d8444b</td></tr>
+<tr>
+<td title='test_package.TestCreateSingleMilestoneAndAutomateEditInformationfield.clickOn_SideStatusColumn()'><b>clickOn_SideStatusColumn</b><br>Test class: test_package.TestCreateSingleMilestoneAndAutomateEditInformationfield</td>
+<td></td>
+<td>12</td>
+<td>test_package.TestCreateSingleMilestoneAndAutomateEditInformationfield@14d8444b</td></tr>
+<tr>
+<td title='test_package.TestAddNewColumnOnPG.addOnHoldColumn()'><b>addOnHoldColumn</b><br>Test class: test_package.TestAddNewColumnOnPG</td>
+<td></td>
+<td>5</td>
+<td>test_package.TestAddNewColumnOnPG@6f911326</td></tr>
+<tr>
+<td title='test_package.TestCreateActivityAndAutomateThreedotfunctionalityOnPlanGantt.addButtonfunctionality()'><b>addButtonfunctionality</b><br>Test class: test_package.TestCreateActivityAndAutomateThreedotfunctionalityOnPlanGantt</td>
+<td></td>
+<td>22</td>
+<td>test_package.TestCreateActivityAndAutomateThreedotfunctionalityOnPlanGantt@7308ffff</td></tr>
+<tr>
+<td title='test_package.TestCreateSingleMilestoneAndAutomateEditInformationfield.clickOn_RiskTab()'><b>clickOn_RiskTab</b><br>Test class: test_package.TestCreateSingleMilestoneAndAutomateEditInformationfield</td>
+<td></td>
+<td>9</td>
+<td>test_package.TestCreateSingleMilestoneAndAutomateEditInformationfield@14d8444b</td></tr>
+<tr>
+<td title='test_package.TestAddNewColumnOnPG.removeSuccessorsColumn()'><b>removeSuccessorsColumn</b><br>Test class: test_package.TestAddNewColumnOnPG</td>
+<td></td>
+<td>3</td>
+<td>test_package.TestAddNewColumnOnPG@6f911326</td></tr>
+<tr>
+<td title='test_package.TestAddNewColumnOnPG.removeRiskColumn()'><b>removeRiskColumn</b><br>Test class: test_package.TestAddNewColumnOnPG</td>
+<td></td>
+<td>3</td>
+<td>test_package.TestAddNewColumnOnPG@6f911326</td></tr>
+<tr>
+<td title='test_package.TestAddNewColumnOnPG.removePredecessorColumn()'><b>removePredecessorColumn</b><br>Test class: test_package.TestAddNewColumnOnPG</td>
+<td></td>
+<td>3</td>
+<td>test_package.TestAddNewColumnOnPG@6f911326</td></tr>
+<tr>
+<td title='test_package.TestCreateSingleMilestoneAndAutomateEditInformationfield.Manually_ScheduledModeOnMilestone()'><b>Manually_ScheduledModeOnMilestone</b><br>Test class: test_package.TestCreateSingleMilestoneAndAutomateEditInformationfield</td>
+<td></td>
+<td>3</td>
+<td>test_package.TestCreateSingleMilestoneAndAutomateEditInformationfield@14d8444b</td></tr>
+<tr>
+<td title='test_package.TestAddNewColumnOnPG.removePriorityColumn()'><b>removePriorityColumn</b><br>Test class: test_package.TestAddNewColumnOnPG</td>
+<td></td>
+<td>10</td>
+<td>test_package.TestAddNewColumnOnPG@6f911326</td></tr>
+<tr>
+<td title='test_package.TestCreatingSingleActivityAndAutomateEditInformationfieldOnPg.clickOneditSubscriber()'><b>clickOneditSubscriber</b><br>Test class: test_package.TestCreatingSingleActivityAndAutomateEditInformationfieldOnPg</td>
+<td></td>
+<td>5</td>
+<td>test_package.TestCreatingSingleActivityAndAutomateEditInformationfieldOnPg@453d496b</td></tr>
+<tr>
+<td title='test_package.TestCreateMilestoneAndAutomateThreedotfunctionalityOnPg.addButtonfunctionality()'><b>addButtonfunctionality</b><br>Test class: test_package.TestCreateMilestoneAndAutomateThreedotfunctionalityOnPg</td>
+<td></td>
+<td>24</td>
+<td>test_package.TestCreateMilestoneAndAutomateThreedotfunctionalityOnPg@3e104d4b</td></tr>
+<tr>
+<td title='test_package.TestAddNewColumnOnPG.removeElapsedTimeColumn()'><b>removeElapsedTimeColumn</b><br>Test class: test_package.TestAddNewColumnOnPG</td>
+<td></td>
+<td>7</td>
+<td>test_package.TestAddNewColumnOnPG@6f911326</td></tr>
+<tr>
+<td title='test_package.TestCreatingSingleActivityAndAutomateEditInformationfieldOnPg.clickOn_RiskTab()'><b>clickOn_RiskTab</b><br>Test class: test_package.TestCreatingSingleActivityAndAutomateEditInformationfieldOnPg</td>
+<td></td>
+<td>12</td>
+<td>test_package.TestCreatingSingleActivityAndAutomateEditInformationfieldOnPg@453d496b</td></tr>
+<tr>
+<td title='test_package.TestCreateSingleMilestoneAndAutomateEditInformationfield.clickOn_SideLogTimeColumn()'><b>clickOn_SideLogTimeColumn</b><br>Test class: test_package.TestCreateSingleMilestoneAndAutomateEditInformationfield</td>
+<td></td>
+<td>8</td>
+<td>test_package.TestCreateSingleMilestoneAndAutomateEditInformationfield@14d8444b</td></tr>
+<tr>
+<td title='test_package.TestAddNewColumnOnPG.addSuccessorsColumn()'><b>addSuccessorsColumn</b><br>Test class: test_package.TestAddNewColumnOnPG</td>
+<td></td>
+<td>6</td>
+<td>test_package.TestAddNewColumnOnPG@6f911326</td></tr>
+<tr>
+<td title='test_package.TestToCheckHeaderButtonsOnPlanGanttBoard.clickOnBaselineDropdown()'><b>clickOnBaselineDropdown</b><br>Test class: test_package.TestToCheckHeaderButtonsOnPlanGanttBoard</td>
+<td></td>
+<td>20</td>
+<td>test_package.TestToCheckHeaderButtonsOnPlanGanttBoard@de8039f</td></tr>
+<tr>
+<td title='test_package.TestToCheckHeaderButtonsOnPlanGanttBoard.checkUndoButton()'><b>checkUndoButton</b><br>Test class: test_package.TestToCheckHeaderButtonsOnPlanGanttBoard</td>
+<td></td>
+<td>11</td>
+<td>test_package.TestToCheckHeaderButtonsOnPlanGanttBoard@de8039f</td></tr>
+<tr>
+<td title='test_package.TestCreateMilestoneAndAutomateThreedotfunctionalityOnPg.converToActivityGroup()'><b>converToActivityGroup</b><br>Test class: test_package.TestCreateMilestoneAndAutomateThreedotfunctionalityOnPg</td>
+<td></td>
+<td>1</td>
+<td>test_package.TestCreateMilestoneAndAutomateThreedotfunctionalityOnPg@3e104d4b</td></tr>
+<tr>
+<td title='test_package.TestCreateSingleMilestoneAndAutomateEditInformationfield.add_files_OnMilestone()'><b>add_files_OnMilestone</b><br>Test class: test_package.TestCreateSingleMilestoneAndAutomateEditInformationfield</td>
+<td></td>
+<td>6</td>
+<td>test_package.TestCreateSingleMilestoneAndAutomateEditInformationfield@14d8444b</td></tr>
+<tr>
+<td title='test_package.TestAddNewColumnOnPG.addAssignedResourceColumn()'><b>addAssignedResourceColumn</b><br>Test class: test_package.TestAddNewColumnOnPG</td>
+<td></td>
+<td>3</td>
+<td>test_package.TestAddNewColumnOnPG@6f911326</td></tr>
+<tr>
+<td title='test_package.TestAddNewColumnOnPG.addDiscussColumn()'><b>addDiscussColumn</b><br>Test class: test_package.TestAddNewColumnOnPG</td>
+<td></td>
+<td>6</td>
+<td>test_package.TestAddNewColumnOnPG@6f911326</td></tr>
+<tr>
+<td title='test_package.TestCreatingSingleActivityAndAutomateEditInformationfieldOnPg.ClickOn_SideLogTimeColumn()'><b>ClickOn_SideLogTimeColumn</b><br>Test class: test_package.TestCreatingSingleActivityAndAutomateEditInformationfieldOnPg</td>
+<td></td>
+<td>9</td>
+<td>test_package.TestCreatingSingleActivityAndAutomateEditInformationfieldOnPg@453d496b</td></tr>
+<tr>
+<td title='test_package.TestCreatingSingleActivityAndAutomateEditInformationfieldOnPg.dynamicAssignment_SchedulingMode()'><b>dynamicAssignment_SchedulingMode</b><br>Test class: test_package.TestCreatingSingleActivityAndAutomateEditInformationfieldOnPg</td>
+<td></td>
+<td>6</td>
+<td>test_package.TestCreatingSingleActivityAndAutomateEditInformationfieldOnPg@453d496b</td></tr>
+<tr>
+<td title='test_package.TestCreateActivityAndAutomateThreedotfunctionalityOnPlanGantt.convertTomilestone()'><b>convertTomilestone</b><br>Test class: test_package.TestCreateActivityAndAutomateThreedotfunctionalityOnPlanGantt</td>
+<td></td>
+<td>33</td>
+<td>test_package.TestCreateActivityAndAutomateThreedotfunctionalityOnPlanGantt@7308ffff</td></tr>
+<tr>
+<td title='test_package.TestAddNewColumnOnPG.addPriorityColumn()'><b>addPriorityColumn</b><br>Test class: test_package.TestAddNewColumnOnPG</td>
+<td></td>
+<td>5</td>
+<td>test_package.TestAddNewColumnOnPG@6f911326</td></tr>
+<tr>
+<td title='test_package.TestAddNewColumnOnPG.addElapsedTimeColumn()'><b>addElapsedTimeColumn</b><br>Test class: test_package.TestAddNewColumnOnPG</td>
+<td></td>
+<td>5</td>
+<td>test_package.TestAddNewColumnOnPG@6f911326</td></tr>
+<tr>
+<td title='test_package.TestAddNewColumnOnPG.removeTimeToLaunch()'><b>removeTimeToLaunch</b><br>Test class: test_package.TestAddNewColumnOnPG</td>
+<td></td>
+<td>3</td>
+<td>test_package.TestAddNewColumnOnPG@6f911326</td></tr>
+<tr>
+<td title='test_package.TestCreatingSingleActivityAndAutomateEditInformationfieldOnPg.Create_SingleActivity()'><b>Create_SingleActivity</b><br>Test class: test_package.TestCreatingSingleActivityAndAutomateEditInformationfieldOnPg</td>
+<td></td>
+<td>70</td>
+<td>test_package.TestCreatingSingleActivityAndAutomateEditInformationfieldOnPg@453d496b</td></tr>
+<tr>
+<td title='test_package.TestAddNewColumnOnPG.addStickersColumn()'><b>addStickersColumn</b><br>Test class: test_package.TestAddNewColumnOnPG</td>
+<td></td>
+<td>6</td>
+<td>test_package.TestAddNewColumnOnPG@6f911326</td></tr>
+<tr>
+<td title='test_package.TestAddNewColumnOnPG.addPredecessorColumn()'><b>addPredecessorColumn</b><br>Test class: test_package.TestAddNewColumnOnPG</td>
+<td></td>
+<td>12</td>
+<td>test_package.TestAddNewColumnOnPG@6f911326</td></tr>
+<tr>
+<td title='test_package.TestAddNewColumnOnPG.removeStickersColumn()'><b>removeStickersColumn</b><br>Test class: test_package.TestAddNewColumnOnPG</td>
+<td></td>
+<td>3</td>
+<td>test_package.TestAddNewColumnOnPG@6f911326</td></tr>
+<tr>
+<td title='test_package.TestCreatingSingleActivityAndAutomateEditInformationfieldOnPg.editLogTime()'><b>editLogTime</b><br>Test class: test_package.TestCreatingSingleActivityAndAutomateEditInformationfieldOnPg</td>
+<td></td>
+<td>13</td>
+<td>test_package.TestCreatingSingleActivityAndAutomateEditInformationfieldOnPg@453d496b</td></tr>
+<tr>
+<td title='test_package.TestAddNewColumnOnPG.addCategoryColumn()'><b>addCategoryColumn</b><br>Test class: test_package.TestAddNewColumnOnPG</td>
+<td></td>
+<td>3</td>
+<td>test_package.TestAddNewColumnOnPG@6f911326</td></tr>
+<tr>
+<td title='test_package.TestCreateSingleMilestoneAndAutomateEditInformationfield.clickOn_editLogTime()'><b>clickOn_editLogTime</b><br>Test class: test_package.TestCreateSingleMilestoneAndAutomateEditInformationfield</td>
+<td></td>
+<td>14</td>
+<td>test_package.TestCreateSingleMilestoneAndAutomateEditInformationfield@14d8444b</td></tr>
+<tr>
+<td title='test_package.TestCreatingSingleActivityAndAutomateEditInformationfieldOnPg.clickOn_ResourceTabOnActivity()'><b>clickOn_ResourceTabOnActivity</b><br>Test class: test_package.TestCreatingSingleActivityAndAutomateEditInformationfieldOnPg</td>
+<td></td>
+<td>14</td>
+<td>test_package.TestCreatingSingleActivityAndAutomateEditInformationfieldOnPg@453d496b</td></tr>
+<tr>
+<td title='test_package.TestCreateSingleMilestoneAndAutomateEditInformationfield.clickOneditSubscriber()'><b>clickOneditSubscriber</b><br>Test class: test_package.TestCreateSingleMilestoneAndAutomateEditInformationfield</td>
+<td></td>
+<td>5</td>
+<td>test_package.TestCreateSingleMilestoneAndAutomateEditInformationfield@14d8444b</td></tr>
+<tr>
+<td title='test_package.TestAddNewColumnOnPG.addRiskColumn()'><b>addRiskColumn</b><br>Test class: test_package.TestAddNewColumnOnPG</td>
+<td></td>
+<td>5</td>
+<td>test_package.TestAddNewColumnOnPG@6f911326</td></tr>
+<tr>
+<td title='test_package.TestCreatingSingleActivityAndAutomateEditInformationfieldOnPg.addingStickers_OnActivity()'><b>addingStickers_OnActivity</b><br>Test class: test_package.TestCreatingSingleActivityAndAutomateEditInformationfieldOnPg</td>
+<td></td>
+<td>76</td>
+<td>test_package.TestCreatingSingleActivityAndAutomateEditInformationfieldOnPg@453d496b</td></tr>
+<tr>
+<td title='test_package.TestAddNewColumnOnPG.addPercentageDoneColumn()'><b>addPercentageDoneColumn</b><br>Test class: test_package.TestAddNewColumnOnPG</td>
+<td></td>
+<td>13</td>
+<td>test_package.TestAddNewColumnOnPG@6f911326</td></tr>
+<tr>
+<td title='test_package.TestAddNewColumnOnPG.addFilesColumn()'><b>addFilesColumn</b><br>Test class: test_package.TestAddNewColumnOnPG</td>
+<td></td>
+<td>5</td>
+<td>test_package.TestAddNewColumnOnPG@6f911326</td></tr>
+<tr>
+<td title='test_package.TestAddNewColumnOnPG.removeAssignedResourceColumn()'><b>removeAssignedResourceColumn</b><br>Test class: test_package.TestAddNewColumnOnPG</td>
+<td></td>
+<td>12</td>
+<td>test_package.TestAddNewColumnOnPG@6f911326</td></tr>
+<tr>
+<td title='test_package.TestAddNewColumnOnPG.removeFilesColumn()'><b>removeFilesColumn</b><br>Test class: test_package.TestAddNewColumnOnPG</td>
+<td></td>
+<td>3</td>
+<td>test_package.TestAddNewColumnOnPG@6f911326</td></tr>
+<tr>
+<td title='test_package.TestAddNewColumnOnPG.removeCategoryColumn()'><b>removeCategoryColumn</b><br>Test class: test_package.TestAddNewColumnOnPG</td>
+<td></td>
+<td>3</td>
+<td>test_package.TestAddNewColumnOnPG@6f911326</td></tr>
+<tr>
+<td title='test_package.TestCreatingSingleActivityAndAutomateEditInformationfieldOnPg.ClickOn_SideStatusColumn()'><b>ClickOn_SideStatusColumn</b><br>Test class: test_package.TestCreatingSingleActivityAndAutomateEditInformationfieldOnPg</td>
+<td></td>
+<td>16</td>
+<td>test_package.TestCreatingSingleActivityAndAutomateEditInformationfieldOnPg@453d496b</td></tr>
+</table><p>
+</body>
+</html>
